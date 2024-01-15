@@ -7,7 +7,7 @@ router.post('/', createProgram);
 
 
 // *******  Private Routes After Creating Program ******
-router.use(authMiddleware);
+//router.use(authMiddleware);
 router.get('/', getAllPrograms);
 router.get('/:id', getProgramById);
 router.put('/:id', updateProgram);
